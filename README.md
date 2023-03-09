@@ -70,7 +70,7 @@ now that we have chosen XGBRregressor as our model this program:
 
 # inputs and outpus of main.py (refer to demo_video for a better input output):-
 
-### asking for height, weight, age, gender 
+# asking for height, weight, age, gender 
 
 ![image](https://user-images.githubusercontent.com/91218998/223958596-b8b3b652-b513-43e8-82fe-df7a2193d5c3.png)
 
@@ -78,23 +78,23 @@ asking for body temprature, duration of the exercise, avarage heart rate during 
 
 ![image](https://user-images.githubusercontent.com/91218998/223958388-9ca811d5-483a-4174-a2a6-145f28387e36.png)
 
-### calories burnt in exercise 1 (output)
+# calories burnt in exercise 1 (output)
 
 ![image](https://user-images.githubusercontent.com/91218998/223958900-961b8b7d-7024-40a5-81fa-12e5800f248a.png)
 
-### asking for body temprature, duration of the exercise, avarage heart rate during the exercise 2
+# asking for body temprature, duration of the exercise, avarage heart rate during the exercise 2
 
 ![image](https://user-images.githubusercontent.com/91218998/223959166-1a2f05e2-7a66-48f3-b361-5ec3f7afa285.png)
 
-### calories burnt in exercise 2
+# calories burnt in exercise 2
 
 ![image](https://user-images.githubusercontent.com/91218998/223959345-d013170a-ea3d-4c93-85eb-7033d07dd8c8.png)
 
-### final output
+# final output
 
 ![image](https://user-images.githubusercontent.com/91218998/223959498-90ea2783-398b-45b7-822e-4b4cabb05e38.png)
 
-### workout_logs csv after saving the workout
+# workout_logs csv after saving the workout
 
 ![image](https://user-images.githubusercontent.com/91218998/223959640-edd0e76e-2886-47ee-a49a-643eef679f11.png)
 
