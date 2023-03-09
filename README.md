@@ -1,20 +1,20 @@
 # calorie_tracker_ml
 a python calorie tracker that uses machine learning models to predict the calories burned during a workout with dark theme UI.
 
-#_____________________________________________________________________________________________________________________________________
+#___________________________________________________________________________________________________________________
 
 made by Aryan rathore 
 linkedin :- https://www.linkedin.com/in/aryan-rathore-b15459215/ 
 email :- aryanrathore13572002@gmail.com, aryan.rathore2021@vitbhopal.ac.in
 
-#_______________________________________________________________________________________________________________________________________
+#___________________________________________________________________________________________________________________
 
 # Goal of the Project:-
 to predict the amount of calories burned based on features like body temprature, duration of the exercise, avarage heart rate during the exercise etc.
 
 # inputs and outputs of the main.py at the end (check demo video to see how to use the application)
 
-#________________________________________________________________________________________________________________________________________
+#_____________________________________________________________________________________________________________________
 
 # how the projects work :- 
 
@@ -50,7 +50,7 @@ calories is highly corelated with duration, heart_rate, body_temp, and ofc itsel
 
 5. the XGBRregressor is the best out the ones used has a r2 score of 0.99 and error of just 1.5 calories
 
-#________________________________________________________________________________________________________________________________________
+#_____________________________________________________________________________________________________________________
 
 ### 2. main.py :
 
@@ -66,7 +66,7 @@ now that we have chosen XGBRregressor as our model this program:
 
 5. saves the workout in the workout_logs csv
 
-#________________________________________________________________________________________________________________________________________
+#_____________________________________________________________________________________________________________________
 
 # inputs and outpus of main.py (refer to demo_video for a better input output):-
 
@@ -98,7 +98,7 @@ asking for body temprature, duration of the exercise, avarage heart rate during 
 
 ![image](https://user-images.githubusercontent.com/91218998/223959640-edd0e76e-2886-47ee-a49a-643eef679f11.png)
 
-#________________________________________________________________________________________________________________________________________
+#_____________________________________________________________________________________________________________________
 
 made by Aryan rathore 
 linkedin :- https://www.linkedin.com/in/aryan-rathore-b15459215/ 
