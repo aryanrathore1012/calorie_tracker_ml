@@ -1,17 +1,17 @@
-# calorie_tracker_ml
+# 🎽 calorie_tracker_ml
 
 a python calorie tracker that uses machine learning models to predict the calories burned during a workout with dark theme UI
 and saves the record in workout_logs csv
 
-# need of the model:
+# 💡 need of the model:
 
 there are many apps that track the amount of calories you eat but not many who calculate the amount of calories you burn during a workout this can be a standalone app that calculates the calories  burnt or this model can be implimented in other apps like healtifyme to show the calories eaten throughout the day aswell the calories burnt throughout the day. giving the user a complet insight on their diet
 
-### about the dataset
+### 📚 about the dataset
 
 the csv has 4 datasets exercise, calories, workout and workout_logs
 
-### exercise dataset:-
+### 📕 exercise dataset:-
 
 this csv contains all the info on the person's workout (has our independet features)
 
@@ -28,7 +28,7 @@ this csv contains all the info on the person's workout (has our independet featu
 
 the Column are self-Exploratory
 
-### calories dataset:-
+### 📗 calories dataset:-
 
 this csv contains calories burned by all workouts in exercise (has our target value / dependent feature "calories")
 
@@ -40,7 +40,7 @@ this csv contains calories burned by all workouts in exercise (has our target va
 1. User_ID: unique id for each person
 2. Calories: the the total calories they burned during their workout
 
-### workout:-
+### 📙 workout:-
 
 * this is our main csv, this is a combination of all Columns from
 exercise (features) and calories burned in each workout (target)
@@ -63,11 +63,11 @@ use this csv for training their models
 
 this is a combination of exercise and calories csv
 
-### workout_logs:-
+### 📓 workout_logs:-
 
 * this csv just saves the workout info with calories burnt for the purpose of keeping track and logging
 
-# insights
+# 🖋️ insights
 
 ### 1. ratio of male to female
 
@@ -82,24 +82,24 @@ the ratio of male to female is almost equal, but the number of females is a litt
 
 ### there are many more insights i have grabbed from the dataset they are saved in the calorie_exercise_workout_model_analysis.ipynb
 
-# Roadmap of the project:-
+# 🛣️ Roadmap of the project:-
 
 ### the calorie_exercise_workout_model_analysis.ipynb :
 
 the Preliminary data analysis, Exploratory data analysis, Data pre-processing, Model development & classifictaion have been done in this ipynb
 
-### 1.Preliminary data analysis:
+### 🛠️ 1.Preliminary data analysis:
 Edit the data to prepare it for further analysis, describe the key features of the data, and summarize the results.
 
 * the program makes workout csv file by joining all columns from exercise csv with calories columns from calories csv file 
 
-### 2.Exploratory data analysis:
+### ⛓️ 2.Exploratory data analysis:
 
 Investigate data sets and summarize their main characteristics, often employing data visualization methods
 
 * major Exploratory data analysis has been done of all columns some of the insights are shown above, many more insights have been visualized and stated in the calorie_exercise_workout_model_analysis.ipynb
 
-### 3. Data pre-processing:
+### ⚒️ 3. Data pre-processing:
 
 The dataset is preprocessed in order to check missing values, noisy data, and other inconsistencies before executing it to the algorithm.
 
@@ -108,13 +108,13 @@ The dataset is preprocessed in order to check missing values, noisy data, and ot
 * the Gender was the only column with Categorical variables male and female which was transformed to 'male': 0 ,'female': 1  
 
 
-### 4. Correlations of calories column with all the features:-
+### 🔗 4. Correlations of calories column with all the features:-
 
 ![image](https://user-images.githubusercontent.com/91218998/223950798-ba628823-087b-48a0-9b78-ae30b11eb719.png)
 
 calories column is at the end and has a strong Correlation with Duration, Heart_Rate, Body_Temp and itself the regression plot graphs have been stated in the jupyter note book
 
-### 5. Model development & comparison:
+### 🧰 5. Model development & comparison:
 
 Model comparison involves comparing the performance of different models on a given task to identify which model is most effective.
 
@@ -140,7 +140,7 @@ Model comparison involves comparing the performance of different models on a giv
 
 # ---------------------------------------
 
-# inputs and outputs of main.py :-
+# 🪟 inputs and outputs of main.py 
 
 ### i would reccomond you watch the demo_video attached in the files as it would give you a clear image on what the project looks like but here are some Screenshots of the GUI
 
@@ -164,15 +164,15 @@ Model comparison involves comparing the performance of different models on a giv
 
 ![image](https://user-images.githubusercontent.com/91218998/223959345-d013170a-ea3d-4c93-85eb-7033d07dd8c8.png)
 
-### 6. final output
+### 🖨️ 6. final output
 
 ![image](https://user-images.githubusercontent.com/91218998/223959498-90ea2783-398b-45b7-822e-4b4cabb05e38.png)
 
-# workout_logs csv after saving the workout
+### workout_logs csv after saving the workout
 
 ![image](https://user-images.githubusercontent.com/91218998/225088450-af63292d-6239-49d1-b504-615b435ee0eb.png)
 
-# Limitations
+# ⛔ Limitations
 
 * there are not that many Limitations as the program works well and predicts a correct amount of calories 
 
@@ -180,14 +180,14 @@ Model comparison involves comparing the performance of different models on a giv
 
 * the program asks body_temp, something users cant measure while working out so some other feature can be added
 
-# future ugrades
+# 🔜 future ugrades
 
 * building a dedicated website or app so the program can be avaible
 on both pc and mobile
 
 * finding more features for calorie prediction
 
-# credits and contact info:-
+# 👨‍🦱credits and contact info:-
 
 * made by Aryan Rathore
 * LinkedIn : https://www.linkedin.com/in/aryan-rathore-b15459215/
@@ -195,5 +195,3 @@ on both pc and mobile
 
 
 # ---------------------------------------
-
-
