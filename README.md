@@ -3,6 +3,8 @@
 a python calorie tracker that uses machine learning models to predict the calories burned during a workout with dark theme UI
 and saves the record in workout_logs csv
 
+YOU CAN CHECK THE DEMO_VIDEO TO SEE HOW THE PROJECT WORKS
+
 # 💡 need of the model:
 
 there are many apps that track the amount of calories you eat but not many who calculate the amount of calories you burn during a workout this can be a standalone app that calculates the calories  burnt or this model can be implimented in other apps like healtifyme to show the calories eaten throughout the day aswell the calories burnt throughout the day. giving the user a complet insight on their diet
