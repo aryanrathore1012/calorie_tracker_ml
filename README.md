@@ -1,6 +1,6 @@
 # 🎽 calorie_tracker_ml
 
-a python calorie tracker that uses machine learning models to predict the calories burned during a workout with dark theme UI
+a python calorie tracker that uses regression machine learning models (XGBRegressor) to predict the calories burned during a workout with dark theme UI
 and saves the record in workout_logs csv
 
 YOU CAN CHECK THE DEMO_VIDEO TO SEE HOW THE PROJECT WORKS
